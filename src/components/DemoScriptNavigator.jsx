@@ -16,7 +16,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import { styled } from '@mui/material/styles';
-import demoScriptData from '../data/demoScriptParts';
+import demoScriptData from '../data/demoScriptParts.json';
 
 // Demo script parts - loaded from single source of truth (JSON)
 const demoScriptParts = demoScriptData.demoScriptParts.map(part => ({
