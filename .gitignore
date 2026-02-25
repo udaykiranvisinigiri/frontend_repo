@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build output
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.sqlite3
+
+# AI/ML specific
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.joblib
+*.pkl
+
+# Test outputs
+.coverage
+.tox/
+.pytest_cache/
+
+# CSV and JSON data files
+*.csv
+*.json
+*.md.bak
