@@ -53,5 +53,4 @@ build/
 
 # CSV and JSON data files
 *.csv
-*.json
 *.md.bak
